@@ -21,21 +21,21 @@
           </thead>
           <tbody>
             <tr>
-              <td class="text-bold">Short Name (Gender)</td>
+              <td class="text-bold">Short Name (Gender):</td>
               <td>${empty student.shortName ? none : fn:escapeXml(student.shortName)}
                 (<i> ${student.gender == other ? noneForGender : fn:escapeXml(student.gender)} </i>)
               </td>
             </tr>
             <tr>
-              <td class="text-bold">Personal Email</td>
+              <td class="text-bold">Personal Email:</td>
               <td>${empty student.email ? none : fn:escapeXml(student.email)}</td>
             </tr>
             <tr>
-              <td class="text-bold">Institution</td>
+              <td class="text-bold">Institution:</td>
               <td>${empty student.institute ? none : fn:escapeXml(student.institute)}</td>
             </tr>
             <tr>
-              <td class="text-bold">Nationality</td>
+              <td class="text-bold">Nationality:</td>
               <td>${empty student.nationality ? none : fn:escapeXml(student.nationality)}</td>
             </tr>
           </tbody>
